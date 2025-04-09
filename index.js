@@ -19,7 +19,7 @@ const person = require("./Routes/personRoutes");
 const booked = require("./Routes/bookedAppointments");
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Webhook Server!");
+  res.send("Welcome to the Webhook Servers!");
 });
 const connectToMongoDB = async () => {
   try {
